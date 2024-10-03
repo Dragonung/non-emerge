@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS nonEmerge_db;
+CREATE DATABASE nonEmerge_db;
