@@ -5,5 +5,5 @@ const PORT = 3001;
 const app = express();
 
 app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:${PORT}`);
+    console.log(`NonEmerge app listening at http://localhost:${PORT}`);
   });
