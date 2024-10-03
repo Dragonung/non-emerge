@@ -1,0 +1,12 @@
+{
+  "name": "non-emerge",
+  "version": "1.0.0",
+  "description": "Notepad for 311 cases (Non-emergencies)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
