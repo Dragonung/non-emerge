@@ -8,8 +8,8 @@ const seedDatabase = async () => {
 
     await Jot.bulkCreate(jotData, {
     });
-    
-    for (const id of userDataData) {
+
+    for (const id of userData) {
         //randomly generate id for user
         await User.create({
             ...id,
