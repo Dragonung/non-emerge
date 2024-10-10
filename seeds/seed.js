@@ -11,7 +11,10 @@ const seedDatabase = async () => {
         returning: true,
     });
 
-    process.exit(0);
+   process.exit(0);
 };
-
-seedDatabase();
+try {
+    seedDatabase();
+} catch (error) {
+    console.log(error)
+}
