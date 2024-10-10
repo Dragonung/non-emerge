@@ -6,15 +6,25 @@ const jotData = require('./jotData.json');
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
 
-    await User.bulkCreate(userData, {
-        individualHooks: true,
-        returning: true,
+    await Jot.bulkCreate(jotData, {
     });
+    
+    for (const id of userDataData) {
+        //randomly generate id for user
+        await User.create({
+            ...id,
+            User_id: user[Math.floor(Math.random() * users.length)].id,
+        });
 
-   process.exit(0);
-};
-try {
-    seedDatabase();
-} catch (error) {
-    console.log(error)
+        await User.bulkCreate(userData, {
+            individualHooks: true,
+            returning: true,
+        });
+        process.exit(0);
+    };
+    try {
+        seedDatabase();
+    } catch (error) {
+        console.log(error)
+    }
 }
