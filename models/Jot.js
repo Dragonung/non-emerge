@@ -17,8 +17,8 @@ Jot.init(
             defaultValue: DataTypes.NOW,
         },
         time_created: {
-            type: DataTypes.DATE(6),
-            allowNull: false,
+            type: DataTypes.TIME,
+            allowNull: true,
             defaultValue: DataTypes.NOW,
         },
         driver: {
@@ -56,7 +56,7 @@ Jot.init(
     },
     {
         sequelize,
-        timestamps: false,
+        timestamps: true,
         freezeTableName: true,
         underscored: true,
         modelName: 'jot',
