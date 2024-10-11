@@ -1,12 +1,14 @@
-{
-  name: "Ian,
-  user_Id: 25,
-},
-{
-  name: Daniel,
-  user_Id: 30,
-},
-{
-  name: Parisa,
-  user_Id: 35,
-}
+
+[
+  {
+    "name": "Joe",
+    "email": "joeblow@email.com",
+    "password": "Password"
+  },
+
+  {
+    "name": "Mary",
+    "email": "maryblow@email.com",
+    "password": "Lamb"
+  }
+]
