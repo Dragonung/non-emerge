@@ -1,15 +1,14 @@
 [
     {
         "date_created": "2024-10-07",
-        "time_created": "2:00:00",
+        "time_created": "15:00:00",
         "driver": "Uber",
         "passengers": "none",
         "Witness": "old white lady",
         "insurance": "AAA",
         "description": "Asian driver",
         "damages": "shock",
-        "comments": "N/A",
-        "user_id": 6969
+        "comments": "N/A"
     },
     {
         "date_created": "2024-10-09",
@@ -20,7 +19,6 @@
         "insurance": "Geico",
         "description": "drunk driver",
         "damages": "my liver",
-        "comments": "N/A",
-        "user_id": 69420
+        "comments": "N/A"
     }
 ]
