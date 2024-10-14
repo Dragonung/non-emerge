@@ -17,10 +17,10 @@ Users will have an account to write their 311 emergencies onto, while 311 agents
 
 ## Setup
 
-- node server.js (activate server and all dependencies)
-- psql -U Postgres (set up credentials for sql database) -> \c non_emerge_db (connect to our database)
-- /i userData.json (seed default user data/credentials)
-- /i jotData.json (seed default jot data)
+- **node server.js** (activate server and all dependencies)
+- **psql -U Postgres** (set up credentials for sql database) -> \c non_emerge_db (connect to our database)
+- **/i userData.json** (seed default user data/credentials)
+- **/i jotData.json** (seed default jot data)
 - type "localhost: 3001" in server or Insomnia and enable back end for functionality
 
 
