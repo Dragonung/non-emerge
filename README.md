@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-[Introduction](#introduction)
-[Setup](#setup)
+[Introduction](#introduction) <br/>
+[Setup](#setup) <br/>
 [Usage](#usage)
 
 
