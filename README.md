@@ -12,7 +12,7 @@
 
 An application to act as a notepad for 311 emergencies.
 
-Users will have an account to write their 311 emergencies onto, while 311 agents monitor the app in order to send assistance depending on conditions.
+Users will have an account to write their 311 emergencies to be stored for later, and contacted/resolved by the appropriate agency depending on their information.
 
 
 ## Setup
