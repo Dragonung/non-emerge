@@ -3,9 +3,9 @@
 ## Table of Contents
 
 [Introduction](#introduction) <br/>
-[Render] (#render) <br>
+[Render](#render) <br>
 [Setup](#setup) <br/>
-[Usage](#usage) <br/>
+[Usage](#usage)
 
 
 
@@ -16,7 +16,7 @@ An application to act as a notepad for 311 emergencies.
 Users will have an account to write their 311 emergencies to be stored for later, and contacted/resolved by the appropriate agency depending on their information.
 
 
-## Render 
+## Render
 
 https://non-emerge.onrender.com
 
