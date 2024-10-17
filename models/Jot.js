@@ -11,31 +11,31 @@ Jot.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        date_created: {
-            type: DataTypes.DATE,
-            allowNull: false,
-            defaultValue: DataTypes.NOW,
-        },
-        time_created: {
-            type: DataTypes.TIME,
-            allowNull: true,
-            defaultValue: DataTypes.NOW,
-        },
+        // date_created: {
+        //     type: DataTypes.DATE,
+        //     allowNull: false,
+        //     defaultValue: DataTypes.NOW,
+        // },
+        // time_created: {
+        //     type: DataTypes.TIME,
+        //     // allowNull: true,
+        //     defaultValue: DataTypes.NOW,
+        // },
         driver: {
             type: DataTypes.STRING,
             allowNull: false,
         },
         passengers: {
             type: DataTypes.STRING,
-            allowNull: false,
+            // allowNull: false,
         },
         Witness: {
             type: DataTypes.STRING,
-            allowNull: false,
+            // allowNull: false,
         },
         insurance: {
             type: DataTypes.STRING,
-            allowNull: false,
+            // allowNull: false,
         },
         description: {
             type: DataTypes.STRING,
