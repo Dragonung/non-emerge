@@ -1,21 +1,22 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
+  const driver = document.querySelector('#project-name').value.trim();
+  const date = document.querySelector('#project-date').value.trim();
   const description = document.querySelector('#project-desc').value.trim();
-
-  if (name && needed_funding && description) {
-    const response = await fetch(`/api/projects`, {
+  const damage = document.querySelector('#project-damage').value.trim();
+  
+  if (driver && date && description && damage) {
+    const response = await fetch(`/api/jots/`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
+      body: JSON.stringify({ driver, date, description, damage }),
       headers: {
         'Content-Type': 'application/json',
       },
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/');
     } else {
       alert('Failed to create project');
     }
@@ -44,4 +45,5 @@ document
 
 document
   .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler);
+//   .addEventListener('click', delButtonHandler);
+//   console.log('jot shouls appear');
