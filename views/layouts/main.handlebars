@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+  <div  class="flex-column justify-space-around">
+    <header id="topBar" class="display-flex justify-space-between align-center p-2">
       <h1>
         <span role="img" aria-label="money">💸</span>
         <a href="/">Accident Jot!</a>
@@ -22,7 +22,7 @@
         <a href="/profile">profile</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a id="login" href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
@@ -31,14 +31,18 @@
       {{{ body }}}
     </main>
 
-    <section>
-      <header style='color:red;'> If you have an emergency. STOP and call 911.
+    <section id="headerSection">
+      <header id="warning" style='color:red;'>🛑 If you have an emergency. STOP and call 911. 🛑
       </header>
-      <p>
+      <header id="instructionHeader">
+      <p id="instructions">
         Use this application to make sure you get all of the relevant information for reporting your vehicular accident. Your notes will
         be saved and can be retrieved later to aid you in reporting this matter to any agency.
       </p>
-
+  </header>
+    </section>
+    <section id="body">
+      <p id="bodyText">Accident Jot</p>
     </section>
 
     <footer>

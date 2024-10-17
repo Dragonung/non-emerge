@@ -2,6 +2,14 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+#topBar {
+  background-color: black;
+}
+
+#login {
+  font-size: 24px;
+}
+
 .no-button {
   background: none;
   border: none;
@@ -21,4 +29,42 @@ header, .project:not(:last-child) {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+
+#warning {
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(28, 31, 31);
+  margin-left: 24%;
+  margin-right: 24%;
+  border: 3px solid gold;
+  margin-top: 2%;
+}
+
+#instructions {
+  margin-left: 24%;
+  margin-right: 24%;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(215, 192, 215);
+  border: 3px solid black;
+}
+
+#headerSection {
+  background-color: white;
+  margin-top: -2%;
+}
+
+#body {
+  background: linear-gradient(white,rgb(192, 192, 237),rgb(225, 199, 199),rgb(179, 179, 241),white);
+  height: 70vh;
+}
+
+#bodyText {
+  text-align: center;
+  font-family: cursive;
+  font-size: 120px;
+  margin-top: 10%;
+  
 }
