@@ -58,5 +58,5 @@ Users will have an account to write their vehicuular non emergencies to be store
 https://non-emerge.onrender.com
 
 
-![Alt text](https://drive.google.com/file/d/10FVAAJ_Yo0uQ2GniCyBOdipGTHsnkT-T/view?usp=sharing)
-![Alt text](https://drive.google.com/file/d/1zlCmVkrlRE_KE3G6t3Q0wIR23cviEWBh/view?usp=sharing)
+![Login view](https://drive.google.com/uc?id=10FVAAJ_Yo0uQ2GniCyBOdipGTHsnkT-T) <br/>
+![Jot form view](https://drive.google.com/uc?id=1zlCmVkrlRE_KE3G6t3Q0wIR23cviEWBh)
